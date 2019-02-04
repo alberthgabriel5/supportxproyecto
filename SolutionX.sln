@@ -13,6 +13,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupportX.BusinessLayer", "S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionX.DomainEntities", "SolutionX.DomainEntities\SolutionX.DomainEntities.csproj", "{F27E9E16-0AE8-4C89-B616-D4A1BF436E5B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionX.DocsBackUp", "SolutionX.DocsBackUp", "{DAF4AF2F-373A-4B2E-B780-C28DA95738E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ScriptDB", "ScriptDB", "{89C4E344-1D36-4A5F-B9BB-600E317606B8}"
+	ProjectSection(SolutionItems) = preProject
+		EmpresaX.ClientDB.sql = EmpresaX.ClientDB.sql
+		EmpresaX.HumanResources.sql = EmpresaX.HumanResources.sql
+		SupportX.PrimaryDataBase.sql = SupportX.PrimaryDataBase.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +51,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{89C4E344-1D36-4A5F-B9BB-600E317606B8} = {DAF4AF2F-373A-4B2E-B780-C28DA95738E9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0852B09A-0FC8-461D-BC79-D260ECBE90FD}
